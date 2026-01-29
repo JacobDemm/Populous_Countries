@@ -11,12 +11,15 @@ Source: World Bank Population Estimates
 Format: CSV
 
 Key Columns
-Column	Description
-CountryName	Name of the country
-CountryCode	ISO country code
-Year	Year of observation
-Value	Population count
-IndicatorCode	Metadata indicator (removed in preprocessing)
+| Column        | Description                                   |
+| ------------- | --------------------------------------------- |
+| CountryName   | Name of the country                           |
+| CountryCode   | ISO country code                              |
+| Year          | Year of observation                           |
+| Value         | Population count                              |
+| IndicatorCode | Metadata indicator (removed in preprocessing) |
+
+
 🧹 Data Preprocessing
 
 The dataset required several cleaning steps:
