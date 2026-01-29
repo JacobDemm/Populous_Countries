@@ -1,9 +1,6 @@
 ## 📌 Project Overview
 
-This project analyzes global population trends from 1960 to 2025 using World Bank data.
-The goal is to clean, transform, visualize, and statistically analyze population growth for the top 10 most populous countries.
-
-This notebook demonstrates data preprocessing, feature engineering, visualization, and statistical analysis using Python.
+This project analyzes global population trends from 1960 to 2025 using World Bank data. The goal is to clean, transform, visualize, and statistically analyze population growth for the top 10 most populous countries. This notebook demonstrates data preprocessing, feature engineering, visualization, and statistical analysis using Python.
 
 ## 📂 Dataset
 
@@ -24,40 +21,31 @@ Key Columns
 
 The dataset required several cleaning steps:
 
-Removed irrelevant columns (IndicatorCode)
+  - Removed irrelevant columns (IndicatorCode)
 
-Filtered only valid country codes (3-character ISO codes)
+  - Filtered only valid country codes (3-character ISO codes)
 
-Removed missing values (NaN)
+  - Removed missing values (NaN)
 
-Removed aggregated regions (non-country rows)
+  - Removed aggregated regions (non-country rows)
 
-Restructured data for time-series analysis
+  - Restructured data for time-series analysis
 
 ## 📊 Data Visualization
 Population Trends
 
 The project visualizes population trends from 1960–2025 for the 10 most populous countries, including:
 
-China
-
-India
-
-United States
-
-Indonesia
-
-Pakistan
-
-Brazil
-
-Nigeria
-
-Bangladesh
-
-Russia
-
-Mexico
+  - China
+  - India
+  - United States
+  - Indonesia
+  - Pakistan
+  - Brazil
+  - Nigeria
+  - Bangladesh
+  - Russia
+  - Mexico
 
 Line plots were created to show how population changed over time.
 
@@ -65,46 +53,28 @@ Line plots were created to show how population changed over time.
 
 For the top 10 countries, the following statistics were computed:
 
-Mean population
-
-Median population
-
-Standard deviation
-
-Minimum and maximum population values
+  - Mean population
+  - Median population
+  - Standard deviation
+  - Minimum and maximum population values
 
 This provides insight into long-term population stability and growth patterns.
 
 ## 🔍 Key Findings
 
-The top 10 most populous countries consistently dominated global population totals from 1960 onward.
-
-Most countries showed steady population growth over time.
-
-Some countries (e.g., Russia) showed population stagnation or decline in later years.
-
-Population growth rates vary significantly between developing and developed countries.
+The top 10 most populous countries consistently dominated global population totals from 1960 onward. Most countries showed steady population growth over time. Some countries (e.g., Russia) showed population stagnation or decline in later years. Population growth rates vary significantly between developing and developed countries.
 
 ## 🛠️ Technologies Used
 
-Python
-
-Pandas for data cleaning and transformation
-
-Matplotlib for visualization
-
-Jupyter Notebook for interactive analysis
+  - Python
+  - Python packages (pandas and matplotlib)
+  - Jupyter Notebook
 
 ## ▶️ How to Run
-1. Clone the repository
-git clone https://github.com/yourusername/population-analysis.git
-cd population-analysis
-
-2. Install dependencies
-pip install pandas matplotlib
-
-3. Open the notebook
-jupyter notebook DemmonsDSCI6002A2.ipynb
+1. Download the ipynb file in the repository.
+2. Open up Jupyter Notebook.
+3. Click on "Upload" and choose the downloaded file
+4. One the file is in Jupyter Notebook, open up the file and few it!
 
 ## 📁 Repository Structure
 ├── DemmonsDSCI6002A2.ipynb
