@@ -84,4 +84,4 @@ The top 10 most populous countries consistently dominated global population tota
 ## ⭐ Why This Project Matters
 
 Understanding population trends is critical for healthcare planning, urban development, economics, and public policy.
-This analysis demonstrates strong data wrangling, visualization, and statistical reasoning skills relevant to data science roles.
+This analysis demonstrates strong data wrangling, visualization, and statistical reasoning skills relevant to use in future data problems and projects.
