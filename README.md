@@ -32,7 +32,6 @@ The dataset required several cleaning steps:
   - Restructured data for time-series analysis
 
 ## 📊 Data Visualization
-Population Trends
 
 The project visualizes population trends from 1960–2025 for the 10 most populous countries, including:
 
